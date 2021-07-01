@@ -1,0 +1,62 @@
+Exercício 1: 
+//Exercício 1
+void main() {
+  String nome = "Lucas";
+  print(nome);
+  
+  String sobrenome = "Lisboa";
+  print(sobrenome);
+  
+  double idade = 20;
+  print(idade);
+
+  String endereco = "Rua Alfredo Gerhardt";
+  print(endereco) ; 
+
+}
+
+Exercício 2:
+void main() {
+  int valor = 20;
+  double cinema;
+  cinema = (valor)*4;
+  print("Valor cinema: 20");
+  print("Valor multiplicado por 4 pessoas:");
+  print(cinema);
+}
+
+Exercício 3: 
+void main() {
+  double baseMaior = 12;
+  double baseMenor = 8;
+  double altura = 5;
+  double area = ((baseMaior + baseMenor) * altura) /2;
+  print('Calculo da área de um trapézio:');
+  print('BaseMaior:12 + BaseMenor:8 x Altura:5 / 2');
+  print('Área do trapézio:');
+  print(area);
+}
+
+Exercício 4:
+void main() {
+  double lado = 7;
+  double area = (lado)*7;
+  print('Area do quadrado');
+  print(area);
+}
+
+Exercício 5:
+ void main() {
+  String nome1 = "Lucas";
+  String nome2 = "Lisboa";
+  print("Nomes:");
+  print(nome1);
+  print(nome2);
+  
+  //comando condicional de tomada de decisão
+  if(nome1 == nome2){
+    print('Nome Igual!');
+  }else{
+    print('Nome Diferente!');
+  }
+}
