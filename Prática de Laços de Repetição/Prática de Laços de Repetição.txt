@@ -25,3 +25,17 @@ void main() {
 }
 
 3. Suponha que você esteja desenvolvendo um programação que realiza a multiplicação entre dois números inteiros e repita esta operação até chegar ao valor de 1200. Exibir as operações efetuadas na tela.
+
+void main() {
+
+int calculo = 3;
+
+for (int indice = 3;indice<701;indice++){
+
+if(indice < 1200){
+ print(indice*calculo);
+ }else if(indice == 1200){
+ print ('fim');
+    }
+  }  
+} 
