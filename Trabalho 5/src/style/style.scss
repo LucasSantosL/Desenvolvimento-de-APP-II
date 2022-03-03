@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+$Primary-Font: 'Big Shoulders Display', cursive;
+$Secundary-Font: 'Lexend Deca', sans-serif;
+
+$color-1: rgb(227, 136, 38);
+$color-2: rgb(0, 105, 112);
+$color-3: rgb(0, 66, 65);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: $Secundary-Font;
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    padding: 30px;
+
+    img {
+        margin-bottom: 25px;
+    }
+
+    h3 {
+        font-family: $Primary-Font;
+        text-transform: uppercase;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 15px;
+        margin-bottom: 30px;
+        line-height: 1.6;
+    }
+}
+
+.div-1 {
+    background-color: $color-1;
+    color: white;
+    border-radius: 10px 10px 0 0;
+
+    #btn-1 {
+        font-family: $Secundary-Font;
+        background-color: white;
+        color: $color-1;
+        border: 1px solid white;
+        border-radius: 30px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+    #btn-1:hover {
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+        transition: 1.2s;
+    }
+}
+
+.div-2 {
+    background-color: $color-2;
+    color: white;
+
+    #btn-2 {
+        font-family: $Secundary-Font;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        border-radius: 30px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+    #btn-2:hover {
+        background-color: white;
+        color: $color-2;
+        cursor: pointer;
+        transition: 1.2s;
+    }
+}
+
+.div-3 {
+    background-color: $color-3;
+    color: white;
+    border-radius: 0 0 10px 10px;
+
+    #btn-3 {
+        font-family: $Secundary-Font;
+        background-color: white;
+        color: $color-3;
+        border: 1px solid white;
+        border-radius: 30px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+    #btn-3:hover {
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+        transition: 1.2s;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .card {
+        padding: 45px;
+
+        p {
+            margin-bottom: 80px;
+        }
+    }
+
+    .div-1 {
+        border-radius: 5px 0 0 5px;
+    }
+
+    .div-3 {
+        border-radius: 0 5px 5px 0;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1100px;
+    }
+}

@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  padding: 30px;
+}
+
+.card img {
+  margin-bottom: 25px;
+}
+
+.card h3 {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 15px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.div-1 {
+  background-color: #e38826;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+.div-1 #btn-1 {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: white;
+  color: #e38826;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.div-1 #btn-1:hover {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+}
+
+.div-2 {
+  background-color: #006970;
+  color: white;
+}
+
+.div-2 #btn-2 {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.div-2 #btn-2:hover {
+  background-color: white;
+  color: #006970;
+  cursor: pointer;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+}
+
+.div-3 {
+  background-color: #004241;
+  color: white;
+  border-radius: 0 0 10px 10px;
+}
+
+.div-3 #btn-3 {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: white;
+  color: #004241;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.div-3 #btn-3:hover {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+}
+
+@media (min-width: 992px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 100vh;
+    max-width: 900px;
+    margin: auto;
+  }
+  .card {
+    padding: 45px;
+  }
+  .card p {
+    margin-bottom: 80px;
+  }
+  .div-1 {
+    border-radius: 5px 0 0 5px;
+  }
+  .div-3 {
+    border-radius: 0 5px 5px 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1100px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
